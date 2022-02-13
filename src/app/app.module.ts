@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { Pag002Component } from './views/pag002/pag002.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './views/header/header.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    Pag002Component
+    Pag002Component,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
